@@ -14,4 +14,4 @@ prerequsite
 
 
 example on the screenshot 
-https://abduonly54.000webhostapp.com/wp-content/uploads/2020/02/pars3r-768x371.png
+https://abduonly54.000webhostapp.com/2020/02/pro-urls-parser-from-specific-url
