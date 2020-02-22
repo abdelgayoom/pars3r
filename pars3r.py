@@ -1,5 +1,6 @@
-
+# external library moduls
 import click
+# standerd library moduls
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -10,6 +11,23 @@ from urllib.parse import urljoin
 @click.option('-o',help='writing to file')
 
 def main(u,o):
+
+	
+	#banner
+	def banner():
+		    print("""
+		                                           
+		 _ __   __ _ _ __ ___|___ / _ __ 
+		| '_ \ / _` | '__/ __| |_ \| '__|
+		| |_) | (_| | |  \__ \___) | |   
+		| .__/ \__,_|_|  |___/____/|_|   
+		|_|
+
+		# Coded By Abdelgayoom - @AbdelgayoomAdam                         
+
+		                
+		    """)
+	banner()
 
 	links = set()
 	def urlParser(url, links):
@@ -37,5 +55,10 @@ def main(u,o):
 	            f.write(pUrl + os.linesep)
 	write_file(o, links)
 
+
+
+
 if __name__ == '__main__':
 	main()
+
+
