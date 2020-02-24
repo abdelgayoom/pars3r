@@ -1,1 +1,5 @@
 click
+requests
+bs4
+urllib
+os
